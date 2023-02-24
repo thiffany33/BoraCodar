@@ -51,8 +51,4 @@ Cada semana, um novo desafio é lançado, com diferentes níveis de dificuldade,
             <a href="07"><img width="300px" src="assets\preview07.jpg" /></a></td>
         </tr>
     </tbody>
-<<<<<<< HEAD
-</table></p>
-=======
-</table></p>
->>>>>>> 31f703a86c2cbb5688bc9d3419e71ed1c8ef5a56
+<thead>
