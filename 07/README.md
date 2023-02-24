@@ -1,4 +1,6 @@
-![bannerCarnaval](07\assets\capa.png)
+<p align="center">
+  <img alt="projeto final" src="07\assets\capa.png" width="100%">
+</p>
 
 
 <h1 align='center'>Bloco Carnaval - #boraCodar</h1>
