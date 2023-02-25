@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="banner" src="(https://raw.githubusercontent.com/thiffany33/BoraCodar/main/07/assets/capa.png)" width="100%">
+  <img alt="banner" src="https://raw.githubusercontent.com/thiffany33/BoraCodar/main/07/assets/capa.png" width="100%">
 </p>
 
 
