@@ -1,10 +1,9 @@
 <p align="center">
   <img alt="banner" src="https://raw.githubusercontent.com/thiffany33/BoraCodar/main/07/assets/capa.png" width="100%">
- </p>
-
+</p>
 
 <h1 align='center'>Bloco Carnaval - #boraCodar</h1>
-<p> Esse projeto foi desenvolvido durante o desafio semanal da Rocketseat, chamado #boraCodar.
+<p align='center'> Esse projeto foi desenvolvido durante o desafio semanal da Rocketseat, chamado #boraCodar.
 
 ## Construção do Projeto
   
