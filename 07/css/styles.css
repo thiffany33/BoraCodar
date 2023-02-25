@@ -15,7 +15,7 @@ header {
 
 header::before {
     content: "";
-    background-image: url(07\assets\bg-header-top.svg);
+    background-image: url(../assets/bg-header-top.svg);
     width: 40.7rem;
     height: 34.5rem;
     position: absolute;
@@ -26,7 +26,7 @@ header::before {
 
 header::after {
     content: "";
-    background-image: url(07\assets\bg-header-bottom.svg);
+    background-image: url(../assets/bg-header-bottom.svg);
     width: 41.4rem;
     height: 33rem;
     position: absolute;
