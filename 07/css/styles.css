@@ -9,12 +9,17 @@ body {
 
 header {
     min-height: 53.2rem;
-    background-color: #F8F8FF;
+    background-color: red;
     text-align: center;
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    place-content: center;
 }
 
 header::before {
     content: "";
+    display: block;
     background-image: url(../assets/bg-header-top.svg);
     width: 40.7rem;
     height: 34.5rem;
@@ -26,6 +31,7 @@ header::before {
 
 header::after {
     content: "";
+    display: block;
     background-image: url(../assets/bg-header-bottom.svg);
     width: 41.4rem;
     height: 33rem;
