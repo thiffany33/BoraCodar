@@ -59,3 +59,22 @@ header h1 {
 header h1 span {
     color: #6246ea;
 }
+
+form {
+    margin-top: 4rem;
+    display: flex;
+    padding: 4rem;
+    gap: 2.4rem;
+    background: #ffffff;
+    border: 0.1rem solid #eaeaea;
+    border-radius: 1rem;
+}
+
+.search-field {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    background: #f4f4ff;
+    border-radius: 0.5rem;
+    padding: 1.2rem 0.8rem 1.2rem 1.4rem;
+}
