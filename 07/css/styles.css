@@ -1,15 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 :root {
     font-size: 62.5%;
     font-family: "Roboto";
+}
+
+.sr-only {
+    position: absolute;
+    width: 0.1rem;
+    height: 0.1rem;
+    padding: 0;
+    margin: -0.1rem;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
 }
 
 body {
     font-size: 1.6rem;
 }
 
+input,
+select,
+button {
+    font-family: "Roboto";
+    all: unset;
+}
+
 header {
     min-height: 53.2rem;
-    background-color: red;
+    background-color: #F4F4FF;
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -38,6 +65,16 @@ header::after {
     position: absolute;
     right: 0;
     bottom: -1.2rem;
+}
+
+header .content {
+    width: fit-content;
+    position: relative;
+    z-index: 1;
+}
+
+header .content .top {
+    text-align: center;
 }
 
 header p {
@@ -77,4 +114,24 @@ form {
     background: #f4f4ff;
     border-radius: 0.5rem;
     padding: 1.2rem 0.8rem 1.2rem 1.4rem;
+}
+
+input,
+select {
+    color: #7c7c8a;
+    min-width: 29rem;
+}
+
+.search-field i {
+    color: #e45858;
+    font-size: 2.4rem;
+}
+
+select,
+.select {
+    position: relative;
+}
+
+select {
+    z-index: 1;
 }
